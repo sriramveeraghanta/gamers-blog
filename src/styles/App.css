@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
 
 html,
 body {
@@ -11,6 +12,8 @@ h3,
 h4,
 h5 {
   font-weight: 700;
+  font-family: "Bangers", cursive;
+  letter-spacing: 2px;
 }
 
 .hero-unit {
@@ -23,12 +26,44 @@ h5 {
 
 .hero-unit > .text-container {
   padding: 20px;
-  text-align: center;
   align-self: center;
   width: 100%;
   color: aliceblue;
 }
 
 .text-container > h3 {
-  font-size: 2.4em;
+  font-size: 3.2em;
+}
+
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.index-helo {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/7457.jpg) no-repeat center center;
+  color: #fff;
+}
+
+.page-title {
+  font-size: 3em;
+}
+
+/* ========================================================================== */
+/* Footer*/
+/* ========================================================================== */
+.page-footer {
+  background-color: #08131f;
+  color: #fff;
+  padding: 40px 0px 20px 0px;
+}
+.logo-img {
+  height: 40px;
+  margin: auto 0;
+}
+.logo-text {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1;
 }
