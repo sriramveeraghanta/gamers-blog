@@ -16,12 +16,35 @@ h5 {
   letter-spacing: 2px;
 }
 
+/* ========================================================================== */
+/* Navbar */
+/* ========================================================================== */
+.nav-transparent {
+  background: none !important;
+  background-color: transparent !important;
+  position: absolute;
+  width: 100%;
+}
+
 .hero-unit {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(../images/7450.jpg) no-repeat center center;
   background-size: cover;
-  min-height: 90vh;
+  min-height: 100vh;
   display: flex;
+}
+.about-bg {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/7445.jpg) no-repeat top center;
+  background-size: cover;
+  min-height: 60vh;
+}
+
+.gallery-bg {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/7448.png) no-repeat top center;
+  background-size: cover;
+  min-height: 60vh;
 }
 
 .hero-unit > .text-container {
@@ -40,6 +63,10 @@ h5 {
   padding-bottom: 60px;
 }
 
+.bg-section {
+  background-color: #0a0f0c;
+}
+
 .index-helo {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(../images/7457.jpg) no-repeat center center;
@@ -48,6 +75,11 @@ h5 {
 
 .page-title {
   font-size: 3em;
+}
+
+.bg-liver {
+  background-color: #bf6900;
+  color: #fff;
 }
 
 /* ========================================================================== */
