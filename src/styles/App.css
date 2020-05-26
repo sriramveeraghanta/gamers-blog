@@ -45,8 +45,15 @@ h5 {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(../images/7448.png) no-repeat top center;
   background-size: cover;
-  min-height: 60vh;
+  min-height: 50vh;
   display: flex;
+}
+
+.planets-bg {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/7482.jpg) no-repeat center center;
+  background-size: cover;
+  min-height: 50vh;
 }
 
 /* <============== Rishab Baisakh ===============> */
@@ -73,7 +80,7 @@ h5 {
   padding: 250px 0px;
   font-size: 50px;
   width: 50vw;
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   color: rgb(255, 101, 30);
 }
 
@@ -140,7 +147,6 @@ h5 {
 }
 /* <==============================================> */
 
-
 .hero-unit > .text-container {
   padding: 20px;
   align-self: center;
@@ -174,6 +180,17 @@ h5 {
 .bg-liver {
   background-color: #bf6900;
   color: #fff;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  grid-gap: 10px;
+}
+.gallery-grid > img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 /* ========================================================================== */
